@@ -70,10 +70,10 @@ a:hover {
     background-attachment: fixed;
 }
 .reshead {
-    color: rgb(54, 54, 54);
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 35px;
+    color: rgb(54, 54, 54) !important;
+    font-weight: bold !important;
+    font-family: monospace !important;
+    font-size: 35px !important;
 }
 .resume {
     font-size: 20px;
