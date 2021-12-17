@@ -1,0 +1,94 @@
+/* Last edited by: James Gerstner, December 16, 2021 */
+h1 {
+    font-weight: bold;
+}
+.TabBody {
+    font-family: 'Times New Roman', Times, serif;
+}
+.common {
+    position: absolute;
+    color: rgb(35, 76, 117);
+    
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 30px;
+    z-index: 2;
+    border-bottom: double 3px #555555;
+    text-indent: 50px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.body {
+    top: 55px;
+    left: 114px;
+    right: 114px;
+    bottom: 64px;
+    padding-right: 5px;
+}
+.footer {
+    bottom: 1px;
+    right: 1px;
+    left: 1px;
+    height: 14px;
+    color: #999999;
+    text-align: center;
+    font-size: 10px;
+    position: fixed;
+    background-color: rgb(230, 230, 230);
+}
+.subheader {
+    float: right;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:visited {
+    color: rgb(189, 58, 178);
+}
+a:hover {
+    color: goldenrod;
+    text-decoration: none;
+}
+.caption {
+    font-weight: normal;
+    font-style: italic;
+    background-color: ivory;
+}
+.caption:hover {
+    color: rgb(35, 76, 117);;
+}
+.NYbg {
+    background-image: url(../assets/images/NY\ background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.standardbg {
+    background-image:url(../assets/images/standardbg.jpeg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.reshead {
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 35px;
+}
+.resume {
+    font-size: 20px;
+}
+h1.resume {
+    font-size: 50px;
+    color: slategray !important;
+}
+.subtitle {
+    color: rgb(252, 252, 252);
+}
+.indes {
+    color: black !important;
+    font-weight: normal;
+}
+.aboutfooter {
+    text-align: center;
+}
